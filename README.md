@@ -13,6 +13,6 @@ I have nothing against tailwind, just in the spirit of keeping things simple, it
 I don't know any eleventy so I'm using this starter template to learn it.
 
 Resources
-- (11ty.rocks)[https://11ty.rocks/]
-- (Learn eleventy from scratch)[https://learneleventyfromscratch.com/]
-- (Sia codes)[https://sia.codes/posts/itsiest-bitsiest-eleventy-tutorial/]
+- [11ty.rocks](https://11ty.rocks/)
+- [Learn eleventy from scratch](https://learneleventyfromscratch.com/)
+- [Sia codes](https://sia.codes/posts/itsiest-bitsiest-eleventy-tutorial/)

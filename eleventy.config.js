@@ -13,8 +13,8 @@ module.exports = function(eleventyConfig) {
 		// e.g.: *.md, *.njk, *.html, *.liquid
 		templateFormats: [
 			"md",
-			"njk",
-			"html",
+            "njk",
+            "html",
             "liquid"
 		],
 
@@ -26,11 +26,13 @@ module.exports = function(eleventyConfig) {
 
         dataTemplateEngine: 'njk',
 
+        // the _includes and _data directories are relative to the input directory
+        // I guess it's assuming they live in the directory input points to.
+        // which is why we need to go up one level to access the _includes layout dir
         dir: {
             input: "content",
             output: "_site",
-            includes: "_includes",
-            data: "_data"
+            includes: "../_includes",
         }
     }
 }
